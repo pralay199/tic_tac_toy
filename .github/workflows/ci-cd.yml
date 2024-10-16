@@ -37,7 +37,7 @@ jobs:
   #         docker push pralay1993/tic_tac_toe:v2
 
   deploy:
-    needs: build  # Runs this job only if the build job succeeds
+    # needs: build  
     runs-on: ubuntu-latest
 
     steps:
